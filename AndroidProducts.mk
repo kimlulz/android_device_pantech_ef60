@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
  PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ef59.mk
+    $(LOCAL_DIR)/lineage_ef60.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ef59-user \
-    lineage_ef59-userdebug \
-    lineage_ef59-eng
+    lineage_ef60-user \
+    lineage_ef60-userdebug \
+    lineage_ef60-eng

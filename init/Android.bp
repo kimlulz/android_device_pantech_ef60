@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_ef59",
+    name: "libinit_ef60",
     recovery_available: true,
-    srcs: ["libinit_ef59.cpp"],
+    srcs: ["libinit_ef60.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init"

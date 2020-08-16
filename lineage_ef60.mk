@@ -18,25 +18,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from ef65 device
-$(call inherit-product, device/pantech/ef59/ef59.mk)
+$(call inherit-product, device/pantech/ef60/ef60.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Call the proprietary setup
-$(call inherit-product-if-exists, vendor/pantech/ef59/ef59-vendor.mk)
+$(call inherit-product-if-exists, vendor/pantech/ef60/ef60-vendor.mk)
 
-PRODUCT_NAME := lineage_ef59
-PRODUCT_DEVICE := ef59
+PRODUCT_NAME := lineage_ef60
+PRODUCT_DEVICE := ef60
 PRODUCT_MANUFACTURER := PANTECH
-PRODUCT_MODEL := Vega Secret Note
+PRODUCT_MODEL := Vega Secret UP
 
 PRODUCT_BRAND := PANTECH
 TARGET_VENDOR := PANTECH
-TARGET_VENDOR_PRODUCT_NAME := ef59
-TARGET_VENDOR_DEVICE_NAME := ef59
+TARGET_VENDOR_PRODUCT_NAME := ef60
+TARGET_VENDOR_DEVICE_NAME := ef60
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ef59-user 4.4.2 KVT49L IM-A890L.012 release-keys" 
+    PRIVATE_BUILD_DESC="msm8974-user 4.4.2 KOT49H IM-A900K.018 release-keys" 
 
-BUILD_FINGERPRINT := pantech/ef59:4.4.2/KVT49L/IM-A890L.012:user/release-keys
+BUILD_FINGERPRINT := VEGA/VEGA_IM-A900K/ef61k:4.4.2/KOT49H/IM-A900K.018:user/release-keys

@@ -1,1 +1,3 @@
-#system.prop
+# OTA
+lineage.updater.uri=https://raw.githubusercontent.com/sky-vega-dev-team/CMupdater_API/lineage-17.1/ef60.json
+

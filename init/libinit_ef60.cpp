@@ -75,15 +75,15 @@ void vendor_load_properties()
 
     if (strstr(device_buf, "IM-A890S")) 
     {
-            property_override("ro.product.device", "ef59s");
+            property_override("ro.product.device", "ef60s");
     } 
     else if (strstr(device_buf, "IM-A890K")) 
     {
-            property_override("ro.product.device", "ef59k");
+            property_override("ro.product.device", "ef60k");
     } 
     else if (strstr(device_buf, "IM-A890L"))
     {
-            property_override("ro.product.device", "ef59l");
+            property_override("ro.product.device", "ef60l");
     }
     // Init a dummy BT MAC address, will be overwritten later
     property_override("ro.boot.btmacaddr", "00:00:00:00:00:00");

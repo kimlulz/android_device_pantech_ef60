@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter ef59,$(TARGET_DEVICE)),)
+ifneq ($(filter ef60,$(TARGET_DEVICE)),)
 
 LOCAL_PATH:= $(call my-dir)
 

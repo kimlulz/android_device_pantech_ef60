@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
-PLATFORM_PATH := device/pantech/ef59
+PLATFORM_PATH := device/pantech/ef60
 # Inherit from msm8974-common
 -include device/pantech/msm8974-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ef59l,ef59s,ef59k,ef59
+TARGET_OTA_ASSERT_DEVICE := ef62l,ef60s,ef61k,ef60
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := LineageOS_ef59_defconfig
+TARGET_KERNEL_CONFIG := LineageOS_ef60_defconfig
 
 # ReleaseTools
 TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)/releasetools
@@ -37,5 +37,5 @@ TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 26534215680
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_ef59
-TARGET_RECOVERY_DEVICE_MODULES := libinit_ef59
+TARGET_INIT_VENDOR_LIB := libinit_ef60
+TARGET_RECOVERY_DEVICE_MODULES := libinit_ef60
