@@ -24,8 +24,13 @@ TARGET_OTA_ASSERT_DEVICE := ef62l,ef60s,ef61k,ef60
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/bluetooth
 
+# Light
+TARGET_PROVIDES_LIBLIGHT := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := LineageOS_ef60_defconfig
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN := /home/hiru/android/kernel/GCC/arm-eabi-4.7-master/bin
 
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
