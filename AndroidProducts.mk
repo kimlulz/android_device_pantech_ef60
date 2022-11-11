@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
  PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ef60.mk
+    $(LOCAL_DIR)/aosp_ef60.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ef60-user \
-    lineage_ef60-userdebug \
-    lineage_ef60-eng
+    aosp_ef60-user \
+    aosp_ef60-userdebug \
+    aosp_ef60-eng

@@ -29,8 +29,8 @@ TARGET_PROVIDES_LIBLIGHT := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := LineageOS_ef60_defconfig
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := /home/hiru/android/kernel/GCC/arm-eabi-4.7-master/bin
+#KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+#KERNEL_TOOLCHAIN := /home/hiru/android/kernel/GCC/arm-eabi-4.7-master/bin
 
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
